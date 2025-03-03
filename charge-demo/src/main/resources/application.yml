@@ -1,10 +1,6 @@
 # SpringBoot 端口
 server:
   port: 8085
-# SpringBoot 日志配置
-logging:
-  config: classpath:logback-spring.xml
-
 
 # MQTT客户端配置http://39.105.200.239/
 mqtt:

@@ -3,7 +3,6 @@ package com.sprixin.SmartChargeStation.demo.mqtt.Pahomode.utils;
 import com.sprixin.SmartChargeStation.demo.mqtt.Pahomode.conf.MqttConf;
 import com.sprixin.SmartChargeStation.demo.mqtt.Pahomode.service.impl.Callback;
 import com.sprixin.SmartChargeStation.demo.mqtt.Pahomode.service.impl.MessageListener;
-import jakarta.annotation.PostConstruct;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.paho.client.mqttv3.*;
@@ -28,12 +27,12 @@ public class MqttClientUtils {
 
     private MqttConnectOptions options;
 
-    @PostConstruct
+    //@PostConstruct
     public void init(){
-        createClient();
+/*        createClient();
         getOptions();
         connect();
-        subScribe(conf.getTopic());
+        subScribe(conf.getTopic());*/
 
     }
 
